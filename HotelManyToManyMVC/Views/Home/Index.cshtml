@@ -1,0 +1,44 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron main-image image-responsive">
+    
+    <div class="col-md-12">
+        <div class="overlay">
+            <h1>Welcome To The Hotel California</h1>
+            <p class="lead">You can check-out any time you like, But you can never leave</p>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6 text-center">
+        <h3>Such a lovely place</h3>
+        <h3>Such a lovely face</h3>
+        <h3>Plenty of room at the Hotel California</h3>
+        <h3>Any time of year</h3>
+        <h3>You can find it here</h3>
+    </div>
+    <div class="col-md-12"></div>
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+            <p>
+                <a class="btn btn-default" @Html.ActionLink("Guests","Index","Guests")></a>
+            </p>
+    </div>
+    <div class="col-md-4">
+        <h2>Available Rooms</h2>
+        <p>
+
+        </p>
+        <p><a class="btn btn-default" @Html.ActionLink("Rooms", "Index", "Rooms")></a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Book It Now</h2>
+        <p>
+
+        </p>
+        <p><a class="btn btn-default" @Html.ActionLink("Booking", "Index", "Bookingcs")></a></p>
+    </div>
+</div>
